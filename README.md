@@ -10,11 +10,15 @@ The Youtube Music Downloader is a simple Command Line Interface written in Pytho
 
 Clone this repository to your machine
 
-`https://github.com/fabieu/youtube-music-downloader`
+```python
+https://github.com/fabieu/youtube-music-downloader
+```
 
 Move into the cloned repository
 
-`cd ./youtube-music-downloader`
+```python
+cd ./youtube-music-downloader
+```
 
 Installing required dependencies in a virtual environment:
 
@@ -28,7 +32,9 @@ pipenv shell
 
 Run the Python script with
 
-`python main.py <arguments>`
+```python
+python main.py <arguments>
+```
 
 Argument List:
 
@@ -47,8 +53,12 @@ Argument List:
 
 Downloading a playlist:
 
-`python main.py -playlist https://www.youtube.com/playlist?list=PLVRMKQHY0icxzX_WkE-s8_-YF_JAo_h92`
+```python
+python main.py -playlist https://www.youtube.com/playlist?list=PLVRMKQHY0icxzX_WkE-s8_-YF_JAo_h92
+```
 
 Downloading a video to C:\temp\downloads
 
-`python main.py -video https://www.youtube.com/watch?v=HluANRwPyNo -target "C:\temp\downloads"`
+```python
+python main.py -video https://www.youtube.com/watch?v=HluANRwPyNo -target "C:\temp\downloads"
+```
