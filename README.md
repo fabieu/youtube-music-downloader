@@ -22,7 +22,7 @@ cd ./youtube-music-downloader
 
 Installing required dependencies in a virtual environment:
 
-```python
+```bash
 python -m pip install pipenv
 pipenv install
 pipenv shell
@@ -32,7 +32,7 @@ pipenv shell
 
 Run the Python script with
 
-```python
+```bash
 python main.py <arguments>
 ```
 
@@ -51,12 +51,12 @@ Argument List:
 
 Downloading a playlist:
 
-```python
+```bash
 python main.py -playlist https://www.youtube.com/playlist?list=PLVRMKQHY0icxzX_WkE-s8_-YF_JAo_h92
 ```
 
 Downloading a video to C:\temp\downloads
 
-```python
+```bash
 python main.py -video https://www.youtube.com/watch?v=HluANRwPyNo -target "C:\temp\downloads"
 ```
