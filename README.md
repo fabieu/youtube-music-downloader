@@ -10,13 +10,13 @@ The Youtube Music Downloader is a simple Command Line Interface written in Pytho
 
 Clone this repository to your machine
 
-```python
-https://github.com/fabieu/youtube-music-downloader
+```bash
+git clone https://github.com/fabieu/youtube-music-downloader
 ```
 
 Move into the cloned repository
 
-```python
+```bash
 cd ./youtube-music-downloader
 ```
 
@@ -44,8 +44,6 @@ Argument List:
 |     -video \<URL>      | required if -playlist is not specified | YouTube Video URL to download            |
 | -target \<output path> |                optional                | Directory for outputting converted files |
 |       --version        |                optional                | Display version information              |
-
-&nbsp;
 
 > Note: Escape all paths with quotes to prevent errors
 
